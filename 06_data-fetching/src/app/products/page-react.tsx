@@ -2,7 +2,7 @@
 import { Product } from '@/types';
 import { useEffect, useState } from 'react';
 
-// api요청으로 데이터 페칭하는 함수
+// api요청으로 데이터 페칭하는 함수 
 async function getProducts(): Promise<Product[]> {
   const response = await fetch('http://localhost:4000/products'); // async/await 함수는 Promise<response : Response> 객체로 반환
   if (!response.ok) {
@@ -11,6 +11,7 @@ async function getProducts(): Promise<Product[]> {
   const data: Product[] = await response.json(); // 데이터를 이행하는 Promise<[{},{},..] : any>
   return data;
 }
+
 
 export default function ProductListPage() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -23,7 +24,7 @@ export default function ProductListPage() {
     const fetchData = async () => {
       const products: Product[] = await getProducts(); // Promise<Product[]> 반환
       setProducts(products);
-    };
+    }
     fetchData();
   }, []);
 

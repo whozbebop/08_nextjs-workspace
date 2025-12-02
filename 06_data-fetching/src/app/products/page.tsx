@@ -1,7 +1,7 @@
 import { Product } from '@/types';
 import { resolve } from 'path';
 
-// api요청으로 데이터 페칭하는 함수
+// api요청으로 데이터 페칭하는 함수 
 async function getProducts(): Promise<Product[]> {
   // loading 확인용 - 2초 딜레이
   await new Promise((resolve) => setTimeout(resolve, 2000));

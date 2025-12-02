@@ -16,7 +16,7 @@ export default function Error({ error, reset }: ErrorProps) {
 
   const handleReset = () => {
     startTransition(() => {
-      router.refresh(); // 서버에 "새 데이터 줘!" - 비동기
+      router.refresh(); // 서버에 "새 데이터 줘!" - 비동기 
       reset(); // 화면 "다시그려!!" - 동기
     });
   };
