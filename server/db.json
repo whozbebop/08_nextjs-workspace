@@ -1,10 +1,40 @@
 {
-  "products": [
-    { "id": 1, "name": "프리미엄 기계식 키보드", "price": 250000, "stock": 10 },
-    { "id": 2, "name": "게이밍 마우스", "price": 89000, "stock": 5 },
-    { "id": 3, "name": "27인치 4K 모니터", "price": 650000, "stock": 2 },
-    { "id": 4, "name": "노트북", "price": 1000000, "stock": 3 },
-    { "id": 5, "name": "도킹 스테이션", "price": 100000, "stock": 20 },
-    { "id": 6, "name": "키보드", "price": 50000, "stock": 12 }
+  "posts": [
+    {
+      "title": "Next.js Server Actions란123?",
+      "content": "121Next.js 13 부터 실험적으로 도입된 새로운 서버 상호작용 방식입니다.",
+      "author": "123dev_ironman",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "useFormState 활용법",
+      "content": "Server Actions와 함께 쓸 때 form 상태 관리를 쉽게 할 수 있습니다.",
+      "author": "form_guru"
+    },
+    {
+      "id": "3",
+      "title": "서버 컴포넌트 VS 클라이언트 컴포넌트",
+      "content": "서버 컴포넌트는 브라우저로 JS 번들을 보내지 않으며, 데이터패칭에 최적화되어 있습니다.",
+      "author": "ssg_wizard"
+    },
+    {
+      "id": "4",
+      "title": "서버 액션에서 redirect 사용법",
+      "content": "서버 액션 내부에서는 next/navigation의 redirect를 활용하여 페이지 이동이 가능합니다.",
+      "author": "routing_hero"
+    },
+    {
+      "id": "5",
+      "title": "라우팅 동작 방식",
+      "content": "폴더/파일 기반으로 동작하여, 설정이 간결하고 직관적입니다.",
+      "author": "route_master"
+    },
+    {
+      "title": "qwewqe121",
+      "content": "qewqewqe1111",
+      "author": "13123123qwewqe",
+      "id": "8910"
+    }
   ]
 }
